@@ -18,5 +18,6 @@ document.getElementById('login-link').addEventListener('click', function (e) {
     e.preventDefault(); // Prevent the default link behavior
 
     // Redirect to the login page
-    window.location.href = 'new.html';
+    window.location.href = 'COB-Web_Development/signup_page
+/index.html';
 });
