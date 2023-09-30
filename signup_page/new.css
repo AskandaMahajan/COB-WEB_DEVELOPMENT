@@ -1,0 +1,100 @@
+body {
+    background-color: #D2E0FB;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    background-color: #7C81AD;
+    border-radius: 30px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 420px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #7C81AD;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Young Serif', serif;}
+  
+  h4 {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Young Serif', serif;
+     
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #78D6C6;
+  }
+  
+  form {
+    text-align: center; /* Center the content horizontally */
+  }
+  /* Styling for the button */
+  #submitBtn {
+    margin-top: 30px;
+    margin-bottom:-100px;
+    background-color: #2E4374;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Hover effect for the button */
+  #submitBtn:hover {
+    background-color: #D2E0FB;
+  }
