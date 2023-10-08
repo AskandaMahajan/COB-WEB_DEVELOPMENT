@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body>
+<!--NAV BAR-->
+<header class="p-3 bg-white sticky-header">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-black text-decoration-none">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="45" height="45"><path d="m21,0H3C1.346,0,0,1.346,0,3v21h24V3c0-1.654-1.346-3-3-3Zm-2,19h-2V7.557l-5,8.026L7,7.56v11.44h-2V6.812c0-.817.479-1.496,1.221-1.73.751-.238,1.569.048,2.032.709l3.747,6.011,3.718-5.966c.493-.707,1.309-.989,2.061-.754.742.234,1.221.913,1.221,1.73v12.188Z"/></svg>
+        <h1 class="fs-3 fw-bold">MenStyle</h1>
+      </a>
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li class="nav-item"><a href="#hero" class="nav-link link-body-emphasis px-2" data-target="hero">Home</a></li>
+        <li class="nav-item"><a href="#upper" class="nav-link link-body-emphasis px-2" data-target="upper">UPPER APPAREL</a></li>
+        <li class="nav-item"><a href="#bottom" class="nav-link link-body-emphasis px-2" data-target="bottom">BOTTOM WEARS</a></li>
+        <li class="nav-item"><a href="#features" class="nav-link link-body-emphasis px-2" data-target="features">NEW ARRIVALS</a></li>
+        <li class="nav-item"><a href="#featured_products" class="nav-link link-body-emphasis px-2" data-target="featured_products">TOP SELL</a></li>
+        <li class="nav-item"><a href="#newsletter" class="nav-link link-body-emphasis px-2" data-target="newsletter">CONTACT</a></li> 
+      </ul>
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control bg-white text-dark" placeholder="Search..." aria-label="Search">
+      </form>
+      <div class="text-end">
+        <button type="button" class="btn btn-outline-dark me-2 text-body-emphasis">SHOPPING BAG</button>
+        <button type="button" class="btn custom-button">LOGIN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--NAV BAR--> 
+<!--HEADER SECTION-->
+<section id="hero">
+      <div class="container col-xxl-8 px-4 py-5" id="hero-container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6" id="hero-image">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">UPGRADE YOUR CLOSET WITH THE LATEST MEN'S FASHION TRENDS</h1>
+            <p class="lead">Explore Our Exquisite Selection of Fashion Ensembles, Tailored to Suit Every Season and Occasion. Elevate Your Style with Us.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="cv7w5e">DISCOVER MORE</button>
+             </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!--HEADER SECTION-->
+<!--TRENDING NOW-->
+<section id="trending">
+    <div class="container px-4 py-5" id="custom-cards2">
+      <h1 class="pb-2 text-center fw-bold" >Trending Now</h1>
+      <div class="row">
+        <div class="col text-center">
+          <a href="#" class="btn btn-link">ALL PRODUCT</a>
+        </div>
+        <div class="col text-center">
+          <a href="#" class="btn btn-link">TEES & SHIRTS</a>
+        </div>
+        <div class="col text-center">
+          <a href="#" class="btn btn-link">JEANS & CHINOS</a>
+        </div>
+        <div class="col text-center">
+          <a href="#" class="btn btn-link">JACKETS & HOODIES</a>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/28/8a/4c/288a4c57ca83f8fdf6aa518245be45ea.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              </div>
+          </div></a>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/68/09/40/68094011e9a2a0e5610e6b053d659d5e.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            </div>
+          </div></a>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/50/5f/d2/505fd22ada6b984bf42da80028762e17.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+           </div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+</section>
+<!--TRENDING NOW-->
+<!--UPPER_BOTTOM-->
+<section id="upper">
+<!--UPPER APPAREL-->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h1 class="pb-2 fw-bold" >UPPER APPAREL</h1>
+      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/750x/97/0c/89/970c893df3e86ac29b4dbf8303a597af.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+             </div>
+          </div></a>
+          <h4 class="text-center mt-3">BASIC TEES</h4>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/00/ed/ae/00edaeeae234300ab012934d7080d5a2.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+             </div>
+          </div></a>
+          <h4 class="text-center mt-3">PIQUE POLOS</h4>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/80/09/56/8009564ad93ca93cb4aa45c8799b7166.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+             </div>
+          </div></a>
+          <h4 class="text-center mt-3">BUTTON DOWN</h4>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/02/67/21/026721260095aed3d6fa831b08056ab0.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            </div>
+          </div></a>
+          <h4 class="text-center mt-3">HOODED</h4>
+        </div>
+      </div>
+    </div> 
+    </section>
+<!--UPPER APPAREL-->
+<!--BOTTOM WEARS-->
+<section id="bottom">
+    <div class="container px-4 py-5" id="custom-cards1">
+      <h1 class="pb-2 fw-bold" >BOTTOM WEARS</h1>
+      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/20/e8/8b/20e88b18d1b93da7a84a239429defb4d.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            </div>
+          </div></a>
+          <h4 class="text-center mt-3">CARGO PANTS</h4>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/3d/c9/72/3dc972aaf04368c566d44fc97da56e09.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            </div>
+          </div></a>
+          <h4 class="text-center mt-3">SHORTS</h4>
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/68/38/38/683838d1b9c75ba4343bd1328732573e.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+               </div>
+          </div>
+          </a>
+          <h4 class="text-center mt-3">TAILORED TROUSERS</h4>  
+        </div>
+        <div class="col">
+          <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/91/1d/d5/911dd5d09b5adb3c6709178f57dc936e.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            </div>
+          </div></a>
+          <h4 class="text-center mt-3">JEANS</h4>
+        </div>
+       </div>
+    </div> 
+  
+<!--BOTTOM WEARS-->
+</section>
+<!--UPPER_BOTTOM-->   
+<!--NEW ARRIVAL-->
+<section id="features">
+    <div class="container px-4 py-5" id="features-section">
+      <h1 class="pb-2 text-center fw-bold">NEW ARRIVALS</h1>
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col">
+          <img src="https://i.pinimg.com/564x/c9/64/2a/c9642a0957969e5b3570bdda44ccd05c.jpg" alt="Featured Image" class="img-fluid">
+        </div>
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                <div class="image-container"><img src='https://i.pinimg.com/564x/ab/b8/d4/abb8d41138e2d34b20df252a6929e0e4.jpg' alt="Featured Image 1" class="img-fluid"></div>
+              </div>
+            </div>
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                <div class="image-container"><img src="https://i.pinimg.com/564x/da/17/79/da17794878392099afdcd28b72cd762c.jpg" alt="Featured Image 2" class="img-fluid"></div>
+              </div>
+            </div>
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                <div class="image-container"><img src="https://i.pinimg.com/564x/53/d9/d0/53d9d035b80cbf0ef5ee12b2be896b72.jpg" alt="Featured Image 3" class="img-fluid"></div>
+              </div>
+            </div>
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                <div class="image-container"><img src="https://i.pinimg.com/564x/6a/f9/fe/6af9fe614d689d520e7a33a74ba93ecd.jpg" alt="Featured Image 4" class="img-fluid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section> 
+<!--NEW ARRIVAL-->  
+<!--TOP SALES,DEALS OF THE DAY,NEWSLETTER-->
+<section id="featured_products">
+    <!--TOP SALES-->
+  <div class="container px-4 py-5" id="custom-cards">
+    <h1 class="pb-2 text-center fw-bold mb-4" >TOP SELL</h1>
+    <div class="my-4"></div>
+    <div class="row">
+      <div class="col text-center">
+        <a href="#" class="btn btn-link">ALL PRODUCT</a>
+      </div>
+      <div class="col text-center">
+        <a href="#" class="btn btn-link">TEES</a>
+      </div>
+      <div class="col text-center">
+        <a href="#" class="btn btn-link">SHIRTS</a>
+      </div>
+      <div class="col text-center">
+        <a href="#" class="btn btn-link">PANTS</a>
+      </div>
+      <div class="col text-center">
+        <a href="#" class="btn btn-link">JACKETS</a>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+      <div class="col">
+        <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/47/b6/29/47b629ea05e0440d8f46cfaac6daa36d.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+          </div>     
+          <div class="product-details mt-3">
+            <div class="row">
+              <!-- Product Information Column -->
+              <div class="col-md-8 ">
+                <!-- Description -->
+                <p>HOODIE</p>
+                <!-- Price -->
+                <p>Price: $19.99</p>
+                <!-- Star Ratings -->
+                <div class="star-ratings">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                </div>
+              </div>     
+              <!-- Add to Cart Button Column -->
+              <div class="col-md-4">
+                <!-- Add to Cart Button with SVG Icon -->
+                <button class="add-to-cart-button">          
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M24,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H0V2H1.222a1,1,0,0,1,.993.883L3.8,16.351A3,3,0,0,0,6.778,19H20V17H6.778a1,1,0,0,1-.993-.884L5.654,15H21.836Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>                 
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/80/f1/7d/80f17df1e6524fd5fee93f4bda65b140.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+          </div>        
+          <div class="product-details mt-3">
+            <div class="row">
+              <!-- Product Information Column -->
+              <div class="col-md-8">
+                <!-- Description -->
+                <p>TRACK PANT</p>
+                <!-- Price -->
+                <p>Price: $20.99</p>
+                <!-- Star Ratings -->
+                <div class="star-ratings">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                </div>
+              </div>    
+              <!-- Add to Cart Button Column -->
+              <div class="col-md-4">
+                <!-- Add to Cart Button with SVG Icon -->
+                <button class="add-to-cart-button">
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M24,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H0V2H1.222a1,1,0,0,1,.993.883L3.8,16.351A3,3,0,0,0,6.778,19H20V17H6.778a1,1,0,0,1-.993-.884L5.654,15H21.836Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>                          
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/ab/86/23/ab862369f140e2d70ef25689c8d2300a.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+          </div>   
+          <div class="product-details mt-3">
+            <div class="row">
+              <!-- Product Information Column -->
+              <div class="col-md-8">
+                <!-- Description -->
+                <p>TRACK JACKET</p>
+                <!-- Price -->
+                <p>Price: $25</p>
+                <!-- Star Ratings -->
+                <div class="star-ratings">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                </div>
+              </div>   
+              <!-- Add to Cart Button Column -->
+              <div class="col-md-4">
+                <!-- Add to Cart Button with SVG Icon -->
+                <button class="add-to-cart-button">           
+                  <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M24,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H0V2H1.222a1,1,0,0,1,.993.883L3.8,16.351A3,3,0,0,0,6.778,19H20V17H6.778a1,1,0,0,1-.993-.884L5.654,15H21.836Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>
+
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.pinimg.com/564x/33/a9/36/33a936260012e0690b493f9c48e559d2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: your-color-here; width: 300px; height: 400px;">
+          </div>
+      
+          <div class="product-details mt-3">
+            <div class="row">
+              <!-- Product Information Column -->
+              <div class="col-md-8">
+                <!-- Description -->
+                <p>DENIM JACKET</p>
+                <!-- Price -->
+                <p>Price: $30</p>
+                <!-- Star Ratings -->
+                <div class="star-ratings">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                </div>
+              </div>
+              <!-- Add to Cart Button Column -->
+              <div class="col-md-4">
+                <!-- Add to Cart Button with SVG Icon -->
+                <button class="add-to-cart-button">
+                  
+                  <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M24,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H0V2H1.222a1,1,0,0,1,.993.883L3.8,16.351A3,3,0,0,0,6.778,19H20V17H6.778a1,1,0,0,1-.993-.884L5.654,15H21.836Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>
+
+                
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div> 
+  </section>
+  <!--TOP SALES-->
+<!--DEALS OF THE DAY-->
+<section id="deal_of_day">
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="https://i.pinimg.com/564x/58/47/fb/5847fbdb1a88f0c2dfd3d4e07a7d2d32.jpg"  width="600" height="700" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">DEALS OF THE DAY</h1>
+      <p class="lead">AND THE HOTTEST DEALS OF THE DAY AWAITS YOU! DISCOVER UNBEATABLE DISCOUNTS ON STYLISH CLOTHING,FROM DAPPER SUITS TO CASUAL ESSENTIALS.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="m9c7oo">SHOP NOW</button>
+       </div>
+    </div>
+  </div>
+</div>
+</section>
+  <!--DEALS OF THE DAY-->
+  <!--NEWSLETTER-->
+  <section id="newsletter">
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center" style="height: 500px;">
+        <div class="col-md-9 offset-md-1 mb-9">
+            <!-- Outer container for dimensions -->
+            <div class="outer-container">
+                <div class="form-container"> <!-- Inner container for styling -->
+                    <form>
+                        <h1 style="text-align:center ">SUBSCIBE TO OUR NEWSLETTER</h1>
+                        <p style="text-align: center;">Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="9edsm7">
+                            <button class="btn btn-primary" type="button" fdprocessedid="ddfl08">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--NEWSLETTER-->
+
+<!--TOP SALES,DEALS OF THE DAY,NEWSLETTER-->
+<!--FOOTER-->
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+  <div class="row">
+    <div class="col-lg-3 mb-3">
+      <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="45" height="45"><path d="m21,0H3C1.346,0,0,1.346,0,3v21h24V3c0-1.654-1.346-3-3-3Zm-2,19h-2V7.557l-5,8.026L7,7.56v11.44h-2V6.812c0-.817.479-1.496,1.221-1.73.751-.238,1.569.048,2.032.709l3.747,6.011,3.718-5.966c.493-.707,1.309-.989,2.061-.754.742.234,1.221.913,1.221,1.73v12.188Z"/></svg>
+        <h1 class="fs-3 fw-bold">MenStyle</h1>
+    </a> 
+      <ul class="list-unstyled small">
+        <li class="mb-2">Explore Our Exquisite Selection of Fashion Ensembles, Tailored to Suit Every Season and Occasion. Elevate Your Style with Us.</li>
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25">
+              <path d="m24,7.251v3.749h-2.057l-3.235-5.258s-3.357-1.742-6.708-1.742-6.708,1.742-6.708,1.742l-3.235,5.258H0v-3.75c0-1.414.564-2.759,1.593-3.788C6.163-1.109,17.835-1.11,22.407,3.462c1.028,1.028,1.594,2.374,1.593,3.789Zm-12,4.749c-1.654,0-3,1.346-3,3s1.346,3,3,3,3-1.346,3-3-1.346-3-3-3Zm12,9.5v2.5H0v-2.5c0-1.977.529-3.93,1.617-5.971l2.829-4.529h-.042l2.294-3.728c.713-.331,2.944-1.272,5.301-1.272s4.588.941,5.301,1.272l2.294,3.728h-.042l2.829,4.529c1.088,2.041,1.617,3.994,1.617,5.971Zm-7-6.5c0-2.757-2.243-5-5-5s-5,2.243-5,5,2.243,5,5,5,5-2.243,5-5Z"/>
+            </svg>
+        080 4050 2268
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25"><path d="M1.225,8.467C1.331,8.344,8.48,1.449,8.48,1.449a5.026,5.026,0,0,1,7.055.015s7.134,6.88,7.239,7l-8.653,8.654a3.074,3.074,0,0,1-4.242,0Zm14.31,10.069a5.024,5.024,0,0,1-7.07,0L.229,10.3A4.962,4.962,0,0,0,0,11.708V19a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V11.708a4.962,4.962,0,0,0-.229-1.408Z"/></svg>
+            help_menstyle@gmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+      <h5>MAIN MENU</h5>
+      <ul class="list-unstyled">
+        <li class="mb-2"><a href="">Home</a></li>
+        <li class="mb-2"><a href="">ABOUT US</a></li>
+        <li class="mb-2"><a href="">ITEMS</a></li>
+        <li class="mb-2"><a href="">SALE</a></li>
+        <li class="mb-2"><a href="">LOCATIONS</a></li>
+        <li class="mb-2"><a href="">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-lg-2 mb-3">
+      <h5>TERMS</h5>
+      <ul class="list-unstyled">
+        <li class="mb-2"><a href="">RETURNS & EXCHANGE</a></li>
+        <li class="mb-2"><a href="">TERMS & CONDITIONS</a></li>
+        <li class="mb-2"><a href="">SHIPPPING POLICY</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+      <h5>Follow Us</h5>
+      <ul class="list-unstyled">
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="25" height="25">
+            <g>
+              <path d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"/>
+            </g>
+            </svg>
+            FACEBOOK
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="25" height="25">
+<g>
+	<path d="M12,2.162c3.204,0,3.584,0.012,4.849,0.07c1.308,0.06,2.655,0.358,3.608,1.311c0.962,0.962,1.251,2.296,1.311,3.608   c0.058,1.265,0.07,1.645,0.07,4.849c0,3.204-0.012,3.584-0.07,4.849c-0.059,1.301-0.364,2.661-1.311,3.608   c-0.962,0.962-2.295,1.251-3.608,1.311c-1.265,0.058-1.645,0.07-4.849,0.07s-3.584-0.012-4.849-0.07   c-1.291-0.059-2.669-0.371-3.608-1.311c-0.957-0.957-1.251-2.304-1.311-3.608c-0.058-1.265-0.07-1.645-0.07-4.849   c0-3.204,0.012-3.584,0.07-4.849c0.059-1.296,0.367-2.664,1.311-3.608c0.96-0.96,2.299-1.251,3.608-1.311   C8.416,2.174,8.796,2.162,12,2.162 M12,0C8.741,0,8.332,0.014,7.052,0.072C5.197,0.157,3.355,0.673,2.014,2.014   C0.668,3.36,0.157,5.198,0.072,7.052C0.014,8.332,0,8.741,0,12c0,3.259,0.014,3.668,0.072,4.948c0.085,1.853,0.603,3.7,1.942,5.038   c1.345,1.345,3.186,1.857,5.038,1.942C8.332,23.986,8.741,24,12,24c3.259,0,3.668-0.014,4.948-0.072   c1.854-0.085,3.698-0.602,5.038-1.942c1.347-1.347,1.857-3.184,1.942-5.038C23.986,15.668,24,15.259,24,12   c0-3.259-0.014-3.668-0.072-4.948c-0.085-1.855-0.602-3.698-1.942-5.038c-1.343-1.343-3.189-1.858-5.038-1.942   C15.668,0.014,15.259,0,12,0z"/>
+	<path d="M12,5.838c-3.403,0-6.162,2.759-6.162,6.162c0,3.403,2.759,6.162,6.162,6.162s6.162-2.759,6.162-6.162   C18.162,8.597,15.403,5.838,12,5.838z M12,16c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S14.209,16,12,16z"/>
+	<circle cx="18.406" cy="5.594" r="1.44"/>
+</g>
+</svg>
+            INSTAGRAM
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="25" height="25">
+  <polygon points="6.861 6.159 15.737 17.764 17.097 17.764 8.322 6.159 6.861 6.159"/>
+  <path d="m0,0v24h24V0H0Zm15.063,19.232l-3.87-5.055-4.422,5.055h-2.458l5.733-6.554-6.046-7.91h5.062l3.494,4.621,4.043-4.621h2.455l-5.361,6.126,6.307,8.337h-4.937Z"/>
+</svg>
+            TWITTER X
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="25" height="25">
+<g id="XMLID_184_">
+	<path d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"/>
+</g>
+</svg>
+            YOUTUBE
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+    </div>
+<!--FOOTER-->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap JavaScript (Separate) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="landing_page.js"></script>
+</body>
+</html>

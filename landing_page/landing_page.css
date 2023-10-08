@@ -4,7 +4,6 @@
     font-family: Montserrat, sans-serif;
     color:black;
   }
-  
   .sticky-header {
     position: fixed;
     top: 0;
@@ -15,26 +14,21 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow if needed */
     transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
   }
-  
-  
   .custom-button {
     background-color: #0C356A; /* Change to your desired color */
     color: white; /* Text color for the button */
   }
-
-
   /* Remove underline and style links */
-.row .col a {
-  text-decoration: none; /* Remove underline */
-  color: #333; /* Change link color */
-  font-size: 18px; /* Adjust font size */
-  margin: 0; /* Remove horizontal margin */
-  padding: -50px;/* Adjust horizontal spacing between links */
-}
-
+  .row .col a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Change link color */
+    font-size: 18px; /* Adjust font size */
+    margin: 0; /* Remove horizontal margin */
+    padding: -50px;/* Adjust horizontal spacing between links */
+  }
 /* Hover effect (optional) */
 .row .col a:hover {
-  color: #007bff; /* Change link color on hover */
+  color: #6499E9; /* Change link color on hover */
 }
 html, body {
   height: 100%;
@@ -42,17 +36,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-/*#header {
-  background-image: url('pin.jpg');
-  border-image-width: 10px;
-  background-size: cover;/* Use 'cover' to cover the entire container *
-  background-repeat: no-repeat;
-  background-position: center center; /* Center the image *
-  height: 100vh; /* Set the height to 100% to ensure it covers the entire viewport *
-}*/
-
-
 #hero {
   background-image: url('pin.jpg');
   background-size: 100% auto; /* Make the image width 100% and maintain aspect ratio */
@@ -60,7 +43,6 @@ html, body {
   background-position: center center; /* Center the image horizontally and vertically */
   height: 100vh; /* Set the height to 100% viewport height */
 }
-
 #trending {
   background-image: url('https://i.pinimg.com/564x/bf/d9/6f/bfd96ffe4dfa395ae67766e4930e6e04.jpg');
   background-size: 100% auto; /* Make the image width 100% and maintain aspect ratio */
@@ -72,7 +54,6 @@ html, body {
     margin-bottom: -60px;
    /* Adjust the value to your preference */
 }
-
 #custom-cards1 .row {
     margin-top: -100px;
     margin-top: -60px; 
@@ -81,14 +62,12 @@ html, body {
 #custom-cards1 h1 {
   margin-top: -10px; /* Adjust the value to your preference */
 }
-
 #upper{
   background:#ECF8F9;
 }
 #bottom{
   background:#ECF8F9;
 }
-
 html, body {
   height: 100%;
   width: 100%;
@@ -96,33 +75,27 @@ html, body {
   padding: 0;
   
 }
-
 #features {
   background-image: url('https://i.pinimg.com/564x/dc/d5/08/dcd508ca8e6aaf2f68cdade11863f02a.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 .image-container {
   width: 400px; /* Set the desired width */
   height: 351px; /* Set the desired height */
   overflow: hidden; /* Prevent image overflow */
 }
-
 /* CSS to style the contained images */
 .image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio without cropping */
 }
-
 .outer-container {
   /* Adjust the width to your desired value */
   margin: 0 auto;
   width: 900px; /* Center the outer container horizontally */
 }
-
 /* Inner container for styling */
 .form-container {
   background-color: #0C356A;
@@ -137,7 +110,6 @@ background:#ECF8F9;
 #newsletter{
   background:#ECF8F9;
 }
-
 /* CSS for the hover effect and link */
 .card-transition {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -146,7 +118,6 @@ background:#ECF8F9;
 .popup-image {
   transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .popup-image:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -158,30 +129,25 @@ background:#ECF8F9;
   display: flex; /* Use flex layout to arrange items horizontally */
   flex-direction: column; /* Stack items vertically within the box */
 }
-
 .product-description {
   font-weight: bold; /* Make the description text bold */
 }
-
 .product-price {
-  color: #007bff; /* Change price text color to blue (adjust to your preference) */
+  color: #6499E9; /* Change price text color to blue (adjust to your preference) */
   margin-top: 5px; /* Add spacing below description */
 }
-
 .star-ratings {
   color: #ffc107; /* Change star color to yellow (adjust to your preference) */
   margin-top: 5px; /* Add spacing below price */
 }
-
 .add-to-cart-button {
-  background-color: #0C356A; /* Change button background color to blue (adjust to your preference) */
+  background-color: white; /* Change button background color to blue (adjust to your preference) */
   color: #fff; /* Change button text color to white */
   border: none; /* Remove button border */
   padding: 5px 10px; /* Add padding to the button */
   margin-top: 10px; /* Add spacing above the button */
   cursor: pointer; /* Change cursor to a pointer on hover */
 }
-
 .add-to-cart-button:hover {
   background-color: #0056b3; /* Change button background color on hover */
 }
@@ -193,11 +159,16 @@ background:#ECF8F9;
 #deal_of_day h1.display-5 {
   color: white !important;
 }
-
 #deal_of_day p.lead {
   color: white;
 }
-
+a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change link color */
+}
+a:hover {
+  color: #6499E9; /* Change link color on hover */
+}
 
 
 
